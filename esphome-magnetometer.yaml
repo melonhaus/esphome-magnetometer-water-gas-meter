@@ -12,8 +12,8 @@ substitutions:
   # For gas one of: CCF, ft³, m³
   volume_unit: 'gal'
 
-  i2c_scl: GPIO5  # D1
-  i2c_sda: GPIO4  # D2
+  i2c_scl: GPI22  # D1
+  i2c_sda: GPI21  # D2
 
   # Set these only if you have connected two QMC5883L to one device, see esphome-two-meters.yaml
   prefix_name: ''
